@@ -1,0 +1,29 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Variable files containing secrets
+*.tfvars
+*.tfvars.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Sensitive screenshots
+*password*.png
+*Password*.png
+*secret*.png
+*credential*.png
